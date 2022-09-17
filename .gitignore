@@ -1,0 +1,7 @@
+# Terraform plugin and state files 
+**/.terraform*
+**/*.tfstate*
+**/.terraform.lock.hcl
+
+# Node_modules files
+node_modules/*
