@@ -18,6 +18,6 @@ output "public_subnet_1c" {
   value = aws_subnet.public_subnet_1c
 }
 
-output "alb_hostname" {
-  value = aws_alb.application-lb.dns_name
+output "application_load_balancer_dns_name" {
+  value = aws_lb.application-lb.dns_name
 }
